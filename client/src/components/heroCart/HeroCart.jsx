@@ -104,11 +104,7 @@ const HeroCart = () => {
         <div className="heroCart__div">
           <img
             className="heroCart__img--perfil"
-<<<<<<< HEAD
             src="./img/heroCart/yo.png"
-=======
-            src="/public/img/heroCart/yo.png"
->>>>>>> b3ef2aa4b0bd2a832d36c59c4f615908f5e34a8e
             alt="Profile"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
