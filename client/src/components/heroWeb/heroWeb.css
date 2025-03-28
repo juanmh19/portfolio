@@ -1,0 +1,115 @@
+.hero {
+    display: grid;
+    grid-template-columns: 22% 50% 22%;
+    grid-template-rows: 42% 42%;
+    gap: 20px;
+    height: 100vh;
+    .hero__div {
+        background-color: var(--fondoBlanco);
+        box-shadow: rgba(0, 0, 0, 0.247) 0 7px 29px;
+    }
+    .hero__div--left {
+        .hero__info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+            .hero__circle {
+                background-color: var(--principal);
+                width: 20px;
+                height: 20px;
+                border-radius: 100%;
+            }
+            .hero__name {
+                color: #fff;
+                margin-left: 10px;
+            }
+        }
+        .hero__div:first-child {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0;
+        }
+        .hero__div {
+            height: 100%;
+            margin-top: 20px;
+        }
+        .hero__img {
+            width: 80%;
+            height: 8rem;
+            border-radius: 20px;
+        }
+        .hero__div--skill {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .hero__div--language {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            justify-items: center;
+            row-gap: 10px   ;
+        }
+        .hero__p--skill {
+            margin:10px 25px;
+            font-size: 14px;
+        }
+        .hero__p--skill:first-child {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .hero__button {
+            margin-top: 30px;
+        }
+    }
+    .hero__div--mid {
+        display: flex;
+        align-items: end;
+        height: 87vh!important;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.247) 0 7px 29px;
+        .hero__h1 {
+            margin: 20px;
+        }
+        .hero__div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 40px;
+            height: 10rem;
+            width: 20rem;
+        }
+        .hero__div--button {
+           display: flex;
+           justify-content: space-between;
+           .hero__button {
+            margin: 0 20px;
+        }
+        }
+    }
+    .hero__div--right {
+        height: 87vh;
+    }
+    .hero__div {
+        border-radius: 20px;
+    }
+    .hero__button {
+        height: 2.5rem;
+        width: 80%;
+        border-radius: 10px;
+        border: none;
+        background-color: var(--principal);
+        border: 2px solid var(--principal);
+        color: var(--fondoBlanco);
+        font-weight: 500;
+        font-size: 18px;
+        
+    }
+    .hero__button:hover {
+        background-color: #ffffff00;
+        cursor: pointer;
+        color: var(--fondoNegro);
+        transition: 0.6s;
+    }
+}

@@ -1,0 +1,40 @@
+.header {
+  margin-left: 20px;
+  margin-top: 10px;
+  .header__nav {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  .header__button {
+    padding: 10px;
+    background-color: var(--buttonBgClaro);
+    border: none;
+    border-bottom: 2px solid var(--borderColor);
+    transition: all 0.3s ease;
+  }
+  .header__button:hover {
+    color: var(--principal);
+    cursor: pointer;
+  }
+  .header__button--active {
+    color: var(--principal);
+    background-color: var(--buttonActiveBgClaro);
+  }
+  .header__button:first-child {
+    border-radius: 40% 40% 0 0;
+  }
+  .header__button:last-child {
+    border-radius: 0 0 40% 40%;
+  }
+}
+
+/* Add these rules with higher specificity */
+body.dark-mode .header .header__button {
+  background-color: #727274;
+  border-bottom-color: var(--borderColorDark);
+}
+
+body.dark-mode .header .header__button--active {
+  background-color: var(--buttonActiveBgOscuro);
+}

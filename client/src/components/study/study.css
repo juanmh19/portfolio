@@ -1,0 +1,16 @@
+.study {
+    .study__div {
+        margin: 30px 40px;
+    }
+    .study__div--info {
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .study__p {
+        color: var(--principal);
+        background-color: #ff990025;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+}

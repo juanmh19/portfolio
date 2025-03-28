@@ -1,0 +1,26 @@
+
+.experiencia {
+    .experiencia__img {
+        width: 7rem;
+    }
+    .experiencia__trabajo {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .experiencia__fecha {
+        color: var(--principal);
+        background-color: #ff990025;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+    .experiencia__ul, .experiencia__p {
+        margin: 20px 40px;
+    }
+    .experiencia__p {
+        margin-top: 20px!important;
+        font-weight: 600;
+    }
+
+}

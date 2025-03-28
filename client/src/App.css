@@ -1,0 +1,31 @@
+/* Estilos para la transición entre modos */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Clase que se aplicará cuando el modo oscuro esté activo */
+  body.dark-mode {
+    background-color: var(--fondoNegro) !important;
+  }
+  
+  body.dark-mode h1,
+  body.dark-mode h2,
+  body.dark-mode h3,
+  body.dark-mode h4,
+  body.dark-mode ul,
+  body.dark-mode a,
+  body.dark-mode button,
+  body.dark-mode button a,
+  body.dark-mode p {
+    color: var(--titulosDark) !important;
+  }
+  
+  body.dark-mode h2,
+  body.dark-mode h3 {
+    border-bottom-color: var(--borderColorDark);
+  }
+  
+  /* Transición suave para todos los elementos que cambian de color */
+  * {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }

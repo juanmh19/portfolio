@@ -1,0 +1,6 @@
+.appweb {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin-left: 100px;
+    
+}

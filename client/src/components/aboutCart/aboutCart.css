@@ -1,0 +1,35 @@
+.aboutCart{
+    .aboutCart__h3 {
+        margin-top: 40px;
+    }
+    .aboutCart__p {
+        margin-top: 20px;
+        color: var(--titulos);
+    }
+    .aboutCart__languages {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        gap: 40px;
+        .aboutCart__div {
+            position: relative;
+            top: 0;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 6rem;
+            background-color: #ffffff54;
+        }
+        .aboutCart__div:hover {
+            top: -10px;
+            transition: 0.5s;
+            background-color: #ff990015;
+            cursor: pointer;
+        }
+        .aboutCart__p {
+            margin-top: 10px;
+        }
+    }
+}
