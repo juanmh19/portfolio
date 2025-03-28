@@ -21,18 +21,18 @@ const Header = ({ activeSection, onSectionClick }) => {
   // Objeto con las rutas de las imágenes y sus versiones hover
   const navItems = [
     {
-      defaultSrc: "/img/header/icons8-web-25.png",
-      hoverSrc: "/img/header/icons8-web-25 (1).png",
+      defaultSrc: "./img/header/icons8-web-25.png",
+      hoverSrc: "./img/header/icons8-web-25 (1).png",
     },
     {
-      defaultSrc: "/img/header/icons8-moon-25.png",
-      hoverSrc: "/img/header/icons8-moon-25 (1).png",
+      defaultSrc: "./img/header/icons8-moon-25.png",
+      hoverSrc: "./img/header/icons8-moon-25 (1).png",
       text: "Cambiar tema",
       isThemeToggle: true
     },
     {
-      defaultSrc: "/img/header/icons8-resume-25.png",
-      hoverSrc: "/img/header/icons8-resume-25 (1).png",
+      defaultSrc: "./img/header/icons8-resume-25.png",
+      hoverSrc: "./img/header/icons8-resume-25 (1).png",
       text: "Resumen",
       section: "resumen"
     },
@@ -43,14 +43,14 @@ const Header = ({ activeSection, onSectionClick }) => {
       section: "about"
     },
     {
-      defaultSrc: "/img/header/icons8-business-25.png",
-      hoverSrc: "/img/header/icons8-business-25 (1).png",
+      defaultSrc: "./img/header/icons8-business-25.png",
+      hoverSrc: "./img/header/icons8-business-25 (1).png",
       text: "Trabajos",
       section: "experiencia"
     },
     {
-      defaultSrc: "/img/header/icons8-office-25.png",
-      hoverSrc: "/img/header/icons8-office-25 (1).png",
+      defaultSrc: "./img/header/icons8-office-25.png",
+      hoverSrc: "./img/header/icons8-office-25 (1).png",
       text: "Proyectos",
       section: "projects"
     },

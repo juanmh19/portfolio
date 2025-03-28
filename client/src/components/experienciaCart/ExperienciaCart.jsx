@@ -6,7 +6,7 @@ const ExperienciaCart = () => {
         <h2><span>E</span>xperiencia</h2>
         <div className="experiencia__experiencia">
             <div className="experiencia__trabajo">
-            <img className='experiencia__img' src="/img/experiencia/valmec-logo.svg" alt="" />
+            <img className='experiencia__img' src="./img/experiencia/valmec-logo.svg" alt="" />
             <p className="experiencia__fecha">2020 - 2022</p>
             </div>
             <p className="experiencia__p">Desarrollador Fullstack <br />Empresa de Válvulas radicada en Buenos Aires</p>
@@ -19,7 +19,7 @@ const ExperienciaCart = () => {
         </div>
         <div className="experiencia__experiencia">
             <div className="experiencia__trabajo">
-            <img className='experiencia__img' src="/img/experiencia/Builderk.webp" alt="" />
+            <img className='experiencia__img' src="./img/experiencia/Builderk.webp" alt="" />
             <p className="experiencia__fecha">2023 - 2024</p>       
             </div>
             <p className="experiencia__p">Analista Programador <br />Constructora Estadounidense radicada en Florida</p>
