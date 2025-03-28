@@ -104,7 +104,7 @@ const HeroCart = () => {
         <div className="heroCart__div">
           <img
             className="heroCart__img--perfil"
-            src="/img/heroCart/yo.png"
+            src="./img/heroCart/yo.png"
             alt="Profile"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
@@ -156,7 +156,7 @@ const HeroCart = () => {
             onMouseLeave={handleMouseLeave}
           >
             Contactame
-            <img className="heroCart__img--send" src="/img/heroCart/icons8-send-25.png" alt="" />
+            <img className="heroCart__img--send" src="./img/heroCart/icons8-send-25.png" alt="" />
           </a>
         </div>
       </div>
