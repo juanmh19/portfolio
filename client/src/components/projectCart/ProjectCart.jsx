@@ -19,8 +19,8 @@ const ProjectCart = () => {
     {
       id: 3,
       title: "Software de Scraping de Productos",
-      video: "/video/proyecto/productScraper.mp4",
-      img: "/img/projectCart/productScraper.png",
+      video: "./video/proyecto/productScraper.mp4",
+      img: "./img/projectCart/productScraper.png",
       description: "Una solución robusta que extrae datos de productos de sitios web y los organiza en una base de datos para comparativas de precios. Pensada para ser fácil de usar, permite a las empresas tomar decisiones de compra informadas con rapidez.",
       technologies: ["Electron", "React", "Node.Js", "MongoDb"],
       challenges: "Superar protecciones anti-scraping y optimizar el rendimiento para consultas masivas de datos.",
