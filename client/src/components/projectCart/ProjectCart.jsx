@@ -9,8 +9,8 @@ const ProjectCart = () => {
     {
       id: 2,
       title: "Plataforma Web de Contratación Profesional",
-      img: "/img/projectCart/servicexperto.png",
-      video: "/video/proyecto/Servicesxperto - Google Chrome 2025-03-26 00-56-24.mp4",
+      img: "./img/projectCart/servicexperto.png",
+      video: "./video/proyecto/Servicesxperto - Google Chrome 2025-03-26 00-56-24.mp4",
       description: "Una plataforma intuitiva tipo uber/fiver que conecta a profesionales con clientes mediante chat en tiempo real, pagos integrados y un mapa de geolocalización para encontrar expertos cercanos. Diseñada para simplificar y agilizar el proceso de contratación de principio a fin.",
       technologies: ["React", "Node.Js", "Algoritmos (Quicksort)", "Stripe", "Socket.io"],
       challenges: "Verificaciones y validaciones que brinden robustez y seguridad a la plataforma. Desde cada mensaje, archivo subido e input completado.",

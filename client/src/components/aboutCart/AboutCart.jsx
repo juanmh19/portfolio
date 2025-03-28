@@ -2,35 +2,35 @@ import "./aboutCart.css";
 
 const lenguajes = [
   {
-    src: "/img/aboutCart/icons8-javascript-25.png",
+    src: "./img/aboutCart/icons8-javascript-25.png",
     name: "JavaScript",
   },
   {
-    src: "/img/aboutCart/icons8-react-25.png",
+    src: "./img/aboutCart/icons8-react-25.png",
     name: "React",
   },
   {
-    src: "/img/aboutCart/icons8-node-js-25.png",
+    src: "./img/aboutCart/icons8-node-js-25.png",
     name: "NodeJS",
   },
   {
-    src: "/img/aboutCart/icons8-mongodb-a-cross-platform-document-oriented-database-program-25.png",
+    src: "./img/aboutCart/icons8-mongodb-a-cross-platform-document-oriented-database-program-25.png",
     name: "MongoDB",
   },
   {
-    src: "/img/aboutCart/icons8-sql-25.png",
+    src: "./img/aboutCart/icons8-sql-25.png",
     name: "SQL",
   },
   {
-    src: "/img/aboutCart/icons8-electron-25.png",
+    src: "./img/aboutCart/icons8-electron-25.png",
     name: "Electron",
   },
   {
-    src: "/img/aboutCart/icons8-python-25.png",
+    src: "./img/aboutCart/icons8-python-25.png",
     name: "Python",
   },
   {
-    src: "/img/aboutCart/icons8-java-25.png",
+    src: "./img/aboutCart/icons8-java-25.png",
     name: "Java",
   }
 ];

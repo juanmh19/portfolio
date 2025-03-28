@@ -15,14 +15,14 @@ const HeroWeb = () => {
         <div className="hero__div hero__div--skill">
             <p className="hero__p--skill">Habilidades</p>
             <div className="hero__div--language">
-                <img src="../../../public/img/aboutCart/icons8-javascript-25.png" alt="" />
-                <img src="../../../public/img/aboutCart/icons8-react-25.png" alt="" />
-                <img src="../../../public/img/aboutCart/icons8-node-js-25.png" alt="" />
-                <img src="../../../public/img/aboutCart/icons8-electron-25.png" alt="" />
-                <img src="../../../public/img/aboutCart/icons8-sql-25.png" alt="" />
-                <img src="../../../public/img/aboutCart/icons8-mongodb-a-cross-platform-document-oriented-database-program-25.png" alt="" />
-                <img src="../../../public/img/aboutCart/icons8-python-25.png" alt="" />
-                <img src="../../../public/img/aboutCart/icons8-java-25.png" alt="" />
+                <img src="./img/aboutCart/icons8-javascript-25.png" alt="" />
+                <img src="./img/aboutCart/icons8-react-25.png" alt="" />
+                <img src="./img/aboutCart/icons8-node-js-25.png" alt="" />
+                <img src="./img/aboutCart/icons8-electron-25.png" alt="" />
+                <img src="./img/aboutCart/icons8-sql-25.png" alt="" />
+                <img src="./img/aboutCart/icons8-mongodb-a-cross-platform-document-oriented-database-program-25.png" alt="" />
+                <img src="./img/aboutCart/icons8-python-25.png" alt="" />
+                <img src="./img/aboutCart/icons8-java-25.png" alt="" />
             </div>
             <p className="hero__p--skill">Visita la sección de mis proyectos para ver lo realizado con cada lenguaje.</p>
         </div>
