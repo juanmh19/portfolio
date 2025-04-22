@@ -12,20 +12,20 @@ const HeroCart = () => {
   const cursorFollowAnimationRef = useRef(null);
 
   const images = [
-    "/img/heroCart/firos-nv-Z2c6ounF-iE-unsplash-1200x800.webp",
-    "/img/heroCart/clement-helardot-95YRwf6CNw8-unsplash-1200x800.webp",
-    "/img/heroCart/20210106_221044.webp",
-    "/img/heroCart/mohammad-rahmani-lPKIb8dJ8kw-unsplash-1200x800.webp",
+    "./img/heroCart/firos-nv-Z2c6ounF-iE-unsplash-1200x800.webp",
+    "./img/heroCart/clement-helardot-95YRwf6CNw8-unsplash-1200x800.webp",
+    "./img/heroCart/20210106_221044.webp",
+    "./img/heroCart/mohammad-rahmani-lPKIb8dJ8kw-unsplash-1200x800.webp",
   ];
 
   const githubIcons = {
-    default: "/img/heroCart/icons8-github-19.png",
-    hover: "/img/heroCart/icons8-github-19 (1).png"
+    default: "./img/heroCart/icons8-github-19.png",
+    hover: "./img/heroCart/icons8-github-19 (1).png"
   };
 
   const linkedinIcons = {
-    default: "/img/heroCart/icons8-linkedin-19.png",
-    hover: "/img/heroCart/icons8-linkedin-19 (1).png" 
+    default: "./img/heroCart/icons8-linkedin-19.png",
+    hover: "./img/heroCart/icons8-linkedin-19 (1).png" 
   };
 
   useEffect(() => {

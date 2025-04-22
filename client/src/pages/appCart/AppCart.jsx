@@ -82,6 +82,7 @@ const AppCart = () => {
   
   return (
     <div className={`appCart app-container ${darkMode ? "dark" : "light"}`}>
+      <div className="appCart__divv">
       <HeroCart />
       <main className="appCart__contenedor main-content">
         {/* Render sections with appropriate animation classes */}
@@ -129,6 +130,7 @@ const AppCart = () => {
           </div>
         )}
       </main>
+      </div>
       <Header 
         activeSection={activeSection} 
         onSectionClick={handleSectionClick} 

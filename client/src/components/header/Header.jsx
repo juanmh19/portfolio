@@ -37,8 +37,8 @@ const Header = ({ activeSection, onSectionClick }) => {
       section: "resumen"
     },
     {
-      defaultSrc: "/img/header/icons8-male-user-25.png",
-      hoverSrc: "/img/header/icons8-male-user-25 (1).png",
+      defaultSrc: "./img/header/icons8-male-user-25.png",
+      hoverSrc: "./img/header/icons8-male-user-25 (1).png",
       text: "Sobre mí",
       section: "about"
     },
@@ -55,8 +55,8 @@ const Header = ({ activeSection, onSectionClick }) => {
       section: "projects"
     },
     {
-      defaultSrc: "/img/header/icons8-study-25.png",
-      hoverSrc: "/img/header/icons8-study-25 (1).png",
+      defaultSrc: "./img/header/icons8-study-25.png",
+      hoverSrc: "./img/header/icons8-study-25 (1).png",
       text: "Estudios",
       section: "study"
     },
@@ -89,7 +89,7 @@ const renderTopButtons = () => {
         // Show sun icon in dark mode, moon icon in light mode
         <img
           className="header__img"
-          src={darkMode ? "/img/header/icons8-sun-25.png" : "/img/header/icons8-moon-25.png"}
+          src={darkMode ? "./img/header/icons8-sun-25.png" : "./img/header/icons8-moon-25.png"}
           alt={darkMode ? "Cambiar a modo claro" : "Cambiar a modo oscuro"}
         />
       ) : (

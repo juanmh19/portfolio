@@ -29,8 +29,8 @@ const ProjectCart = () => {
     {
       id: 4,
       title: "Software de Scraping de Leads en Google Maps",
-      img: "/img/projectCart/leadExtractor.png",
-      video: "/video/proyecto/leadExtract.mp4",
+      img: "./img/projectCart/leadExtractor.png",
+      video: "./video/proyecto/leadExtract.mp4",
       description: "Una herramienta avanzada que extrae leads de Google Maps o Bing Maps, los exporta a Excel y automatiza campañas de correo masivo. Diseñada para maximizar precisión y escalabilidad, facilita la prospección para equipos de ventas.",
       technologies: ["Python", "Google Maps API", "Bing Maps API", "BeautifulSoup", "Emailers"],
       challenges: "Evitar bloqueos de APIs y gestionar grandes volúmenes de datos.",
@@ -39,8 +39,8 @@ const ProjectCart = () => {
     {
       id: 1,
       title: "Software de Seguridad y Vigilancia con IA",
-      img: "/img/heroCart/mohammad-rahmani-lPKIb8dJ8kw-unsplash-1200x800.webp",
-      video: "/video/proyecto/Electron 2025-03-26 00-46-35.mp4",
+      img: "./img/heroCart/mohammad-rahmani-lPKIb8dJ8kw-unsplash-1200x800.webp",
+      video: "./video/proyecto/Electron 2025-03-26 00-46-35.mp4",
       description: "--- AUN EN PROCESO ---Un sistema innovador que integra múltiples dispositivos, incluidos smartphones, en una red unificada para monitoreo en tiempo real. Utiliza reconocimiento facial con IA para detectar usuarios no autorizados y envía alertas inmediatas por WhatsApp, garantizando una gestión de seguridad fluida y eficiente.",
       technologies: ["React", "Node.js", "TensorFlow", "WebRTC", "Twilio"],
       challenges: "Lograr la integración de IA en tiempo real y asegurar compatibilidad entre plataformas para una experiencia de usuario impecable.",
